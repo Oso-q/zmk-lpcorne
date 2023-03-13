@@ -20,62 +20,62 @@
     combos {
         compatible = "zmk,combos";
         combo_esc {
-            timeout-ms = <75>;
+            timeout-ms = <120>;
             key-positions = <13 14>;
             bindings = <&kp ESC>;
         };
         combo_tab {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <14 15>;
             bindings = <&kp TAB>;
         };
         combo_delete {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <15 16>;
             bindings = <&kp DELETE>;
         };
         combo_backspace {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <19 20>;
             bindings = <&kp BSPC>;
         };
         combo_enter {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <21 22>;
             bindings = <&kp RET>;
         };
         combo_scln {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <20 21>;
             bindings = <&kp SCLN>;
         };
         combo_lpar {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <3 4>;
             bindings = <&kp LPAR>;
         };
         combo_rpar {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <7 8>;
             bindings = <&kp RPAR>;
         };
         combo_lbkt {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <7 8>;
             bindings = <&kp LBKT>;
         };
         combo_rbkt {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <7 8>;
             bindings = <&kp RBKT>;
         };
         combo_minus {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <2 3>;
             bindings = <&kp MINUS>;
         };
         combo_equal {
-            timeout-ms = <60>;
+            timeout-ms = <90>;
             key-positions = <8 9>;
             bindings = <&kp EQUAL>;
         };
